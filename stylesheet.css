@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins : 200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+*
+{
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Raleway', Helvetica;
+}
+/*
+body
+{
+    background : lightblue;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    min-height : 100vh;
+}
+*/
+body
+{
+    background: url(https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1) no-repeat center center fixed; 
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-size: cover;
+}
+/*
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height : 150px;
+    background : #fff; 
+    margin: 50px;
+    display: grid;
+    grid-template-columns : 1fr 2fr;
+    box-shadow: 0 35px 35px rgba(0,0,0,0.1);
+}
+*/
+.glass
+{
+    position: relative;
+    min-height: 250px;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns : 1fr 2fr;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    position: relative;
+    margin: 50px;
+    left: 10px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #00EDFF;
+    /*-webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);*/
+    font-family: "Raleway", Helvetica;
+}
+
+.imgref
+{
+    position: relative;
+    width : 200px;
+    height : 200px;
+    border-radius : 50%;
+    overflow : hidden;
+}
+.imgref img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.protext
+{
+    position : relative;
+    display : flex;
+    line-height: 30px;
+    flex-direction : column;
+    align-items : center;
+    padding-bottom : 20px;
+    border-bottom : 1px solid #fff;
+}
+
+/*Left side of the resume*/
+.container .left_Side
+{
+    position : relative;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-right: 1px;
+    border-right: 1px solid #fff;
+}   
+.perpro
+{
+    padding-top: 40px;
+    padding-bottom : 20px;
+    border-bottom : 1px solid #fff;
+}
+.title
+{
+    text-transform : uppercase;
+    font-weight : 600;
+    Letter-spacing : 1px;
+    margin-bottom : 20px;
+}
+.perpro ul
+{
+    position : relative;
+}
+.perpro ul li
+{
+    position : relative;
+    List-style : none;
+    margin : 10px 0;
+    cursor: pointer ;
+}
+.skset, .strn, .perin
+{
+    position : relative;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom : 30px;
+    border-bottom : 1px solid #fff;
+}
+
+.lang
+{
+    position: relative;
+    line-height: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom : 20px;
+}
+.lang li
+{
+    List-style : none;
+}
+.lang .percent
+{
+    position: relative;
+    width: 75%;
+    height: 6px;
+    background: #005DFF;
+    border-radius: 100px;
+    display: block;
+    margin-top: 5px;
+}
+.lang .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #00EDFF;
+    border-radius: 100px;
+}
+
+
+
+.container .right_Side
+{
+    position : relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border: 1px solid #fff;
+}
+.carobj
+{
+    padding: 30px;
+    line-height: 25px;
+    border-bottom : 1px solid #fff;
+}
+.carobj .ptext
+{
+    position: relative;
+    font-family: "Raleway", Helvetica;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom : 5px;
+}
+.edu
+{
+    position: relative;
+    font-family: "Raleway", Helvetica;
+    width: 100%;
+    line-height: 28px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: "Raleway", Helvetica;
+    padding-bottom: 27px;
+    border-bottom : 1px solid #fff;
+}
+.period
+{
+    padding-left: 20px;
+    List-style : none;
+}
+.cerin
+{
+    position: relative;
+    padding-top: 40px;
+    width: 100%;
+    min-height: 367px;
+    padding-left: 30px;
+    line-height: 28px;
+    font-family: "Raleway", Helvetica;
+    padding-bottom: 40px;
+    border-bottom : 1px solid #fff;
+}
+/*
+.cerin
+{
+    display: flex;
+    flex-direction: row;
+}
+.cerin
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+*/
+.cileft
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.cerin .cileft .leftbox, .ciright .rightbox
+{
+    text-align: justify;
+}
+.cileft .leftbox ul li, .ciright .rightbox ul li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.reflink
+{
+    text-decoration: none;
+    color: white;
+}
+.ciright
+{
+    width: 50%;
+    float: right;
+    padding-right: 10px;
+}
+.ciright .reflink
+{
+    text-decoration: none;
+    color: white;
+}
+.drn
+{
+    position: relative;
+    font-family: "Raleway", Helvetica;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.drn p
+{
+    line-height: 25px;
+}
