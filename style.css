@@ -79,7 +79,7 @@ body
     flex-direction : column;
     align-items : center;
     padding-bottom : 20px;
-    border-bottom : 1px solid #000;
+    border-bottom : 1px solid #fff;
 }
 
 /*Left side of the resume*/
@@ -91,13 +91,13 @@ body
     padding-right: 40px;
     padding-bottom: 30px;
     margin-right: 1px;
-    border-right: 1px solid #000;
+    border-right: 1px solid #fff;
 }   
 .perpro
 {
     padding-top: 40px;
     padding-bottom : 20px;
-    border-bottom : 1px solid #000;
+    border-bottom : 1px solid #fff;
 }
 .title
 {
@@ -124,7 +124,7 @@ body
     padding-top: 30px;
     padding-left: 20px;
     padding-bottom : 30px;
-    border-bottom : 1px solid #000;
+    border-bottom : 1px solid #fff;
 }
 
 .lang
@@ -173,7 +173,7 @@ body
 {
     padding: 30px;
     line-height: 25px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
 }
 .carobj .ptext
 {
@@ -193,7 +193,7 @@ body
     padding-left: 30px;
     font-family: "Raleway", Helvetica;
     padding-bottom: 27px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
 }
 .period
 {
@@ -210,7 +210,7 @@ body
     line-height: 28px;
     font-family: "Raleway", Helvetica;
     padding-bottom: 40px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
 }
 .cileft
 {
@@ -230,7 +230,7 @@ body
 .reflink
 {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .ciright
 {
