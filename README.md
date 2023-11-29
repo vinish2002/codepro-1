@@ -3,7 +3,8 @@
 
 #### Webpage link:  https://vinish2002.github.io/codepro-1/
 ### Image preview - 1:
-![glassimg](https://github.com/vinish2002/codepro-1/assets/93365433/7dc0ced5-51fa-47a7-a598-156b4ad480eb)
+![GlassImg](https://github.com/vinish2002/codepro-1/assets/93365433/db12df0d-a161-4b34-8d2d-354a4e93652f)
 
 ### Image preview - 2:
-![CV_WEB](https://github.com/vinish2002/codepro-1/assets/93365433/89f14ffd-58c1-4acd-a733-7abf2968d766)
+![NewResImg](https://github.com/vinish2002/codepro-1/assets/93365433/2474e57b-c789-40dd-9ac4-2a58da69fd92)
+
